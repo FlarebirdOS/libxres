@@ -1,6 +1,6 @@
 pkgname=libxres
-pkgver=1.2.2
-pkgrel=1
+pkgver=1.2.3
+pkgrel=2
 pkgdesc="X11 Resource extension library"
 arch=('x86_64')
 url="https://xorg.freedesktop.org"
@@ -13,7 +13,7 @@ depends=(
 )
 makedepends=('xorg-util-macros')
 source=(https://www.x.org/pub/individual/lib/libXres-${pkgver}.tar.xz)
-sha256sums=(9a7446f3484b9b7538ac5ee30d2c1ce9e5b7fbbaf1440e02f6cca186a1fa745f)
+sha256sums=(d2de8f5401d6c86a8992791654547eb8def585dfdc0c08cc16e24ef6aeeb69dc)
 
 build() {
     cd libXres-${pkgver}
